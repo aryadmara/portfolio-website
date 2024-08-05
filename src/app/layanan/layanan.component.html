@@ -1,0 +1,26 @@
+<div class="container mx-auto px-4 md:px-8 lg:px-16 my-10">
+  <div class="mb-8">
+    <h1 class="text-3xl md:text-4xl font-semibold">TechStack🔥</h1>
+    <h6 class="text-xl md:text-2xl">Tools and Frameworks I've Used</h6>
+  </div>
+
+  <div
+    class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4"
+  >
+    <div
+      *ngFor="let tech of techStack"
+      class="card bg-base-100 shadow-xl tech-card cursor-pointer"
+    >
+      <figure class="px-4 pt-4">
+        <img
+          [src]="tech.image"
+          [alt]="tech.name"
+          class="rounded-xl h-24 object-contain"
+        />
+      </figure>
+      <div class="card-body items-center text-center p-4">
+        <h2 class="card-title text-lg">{{ tech.name }}</h2>
+      </div>
+    </div>
+  </div>
+</div>

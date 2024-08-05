@@ -1,0 +1,55 @@
+<div class="container mx-auto px-4 md:px-8 lg:px-16 sm:my-10 md:my-16">
+  <div class="my-8">
+    <h1 class="text-3xl md:text-4xl font-semibold">My Project🎯</h1>
+    <h6 class="text-xl md:text-2xl">Some projects I have worked on</h6>
+  </div>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <div
+      *ngFor="let project of codingProjects"
+      class="card bg-base-100 shadow-xl"
+    >
+      <figure>
+        <img
+          [src]="project.imageUrl"
+          [alt]="project.name"
+          class="w-full h-48 object-cover"
+        />
+      </figure>
+      <div class="card-body">
+        <h2 class="card-title text-2xl lg:text-3xl font-bold">
+          {{ project.name }}
+        </h2>
+        <p
+          class="text-base-content text-opacity-70 font-semibold tracking-widest"
+        >
+          {{ project.description }}
+        </p>
+        <div class="mt-4">
+          <h3 class="font-semibold mb-2">Tech Stack:</h3>
+          <div class="flex flex-wrap gap-2">
+            <span
+              *ngFor="let tech of project.techStack"
+              class="badge badge-primary"
+              >{{ tech }}</span
+            >
+          </div>
+        </div>
+        <div class="mt-4">
+          <h3 class="font-semibold">Role:</h3>
+          <p>{{ project.role }}</p>
+        </div>
+        <div class="card-actions justify-end mt-4">
+          <a
+            [href]="project.link"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn btn-primary"
+            [class.btn-disabled]="!project.link"
+          >
+            View Project
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
