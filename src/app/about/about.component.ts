@@ -31,7 +31,7 @@ export class AboutComponent {
     {
       name: 'Ngivent 🎫',
       description:
-        'A mobile application for task management with real-time updates and team collaboration features.',
+        'Ngivent is an innovative web platform that connects ticket sellers with users who want to buy tickets for their favorite events.',
       techStack: ['Next', 'Tailwind', 'ShadCn UI', 'Express', 'Prisma'],
       role: 'Full Stack Developer',
       imageUrl: '/portfolio/5.png',
@@ -40,7 +40,7 @@ export class AboutComponent {
     {
       name: 'Mulia Village 🏘️',
       description:
-        'An interactive dashboard for visualizing complex datasets with customizable charts and filters.',
+        'This is a project request from the Mulia Village team with the main aim of displaying offers for Mulia Village products, including promotions, featured products, and client testimonials.',
       techStack: ['Next', 'Tailwind'],
       role: 'Front-end Developer',
       imageUrl: '/portfolio/6.png',
@@ -49,7 +49,7 @@ export class AboutComponent {
     {
       name: 'Rocket Lister 🚀',
       description:
-        'An interactive dashboard for visualizing complex datasets with customizable charts and filters.',
+        'This project aims to create a clone website from an existing web design with the main focus on creating a company profile.',
       techStack: ['Vite', 'Tailwind'],
       role: 'Front-end Developer',
       imageUrl: '/portfolio/7.png',
