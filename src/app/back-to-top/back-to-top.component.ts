@@ -9,9 +9,9 @@ import { CommonModule } from '@angular/common';
     <button
       *ngIf="isVisible"
       (click)="scrollToTop()"
-      class="fixed bottom-5 right-5 bg-primary text-primary-content p-2 rounded-full shadow-lg hover:bg-primary-focus transition-all duration-300 text-4xl"
+      class=" bg-white fixed bottom-5 right-5  text-black p-2 rounded-full shadow-lg hover:bg-primary-focus transition-all duration-300 text-2xl font-bold"
     >
-      🔝
+      Back to Top ⬆️
     </button>
   `,
   styles: [],

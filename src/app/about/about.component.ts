@@ -55,5 +55,14 @@ export class AboutComponent {
       imageUrl: '/portfolio/7.png',
       link: 'https://property-vite.vercel.app/',
     },
+    {
+      name: 'Netflix Clone 🎬',
+      description:
+        'This project aims to create a clone of the Netflix landing page, with the main focus on replicating its design for learning and development purposes.',
+      techStack: ['Angular', 'Tailwind', 'Daisy UI'],
+      role: 'Front-end Developer',
+      imageUrl: '/portfolio/8.png',
+      link: 'https://clone-project1.netlify.app/',
+    },
   ];
 }

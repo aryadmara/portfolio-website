@@ -46,5 +46,13 @@ export class LayananComponent {
       name: 'MySQL',
       image: '/logo/MySQL.png',
     },
+    {
+      name: 'Angular',
+      image: '/logo/angular.png',
+    },
+    {
+      name: 'Daisy UI',
+      image: '/logo/daisyUI.png',
+    },
   ];
 }
