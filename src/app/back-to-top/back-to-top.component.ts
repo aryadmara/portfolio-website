@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
       (click)="scrollToTop()"
       class=" bg-white fixed bottom-5 right-5  text-black p-2 rounded-full shadow-lg hover:bg-primary-focus transition-all duration-300 text-2xl font-bold"
     >
-      Back to Top ⬆️
+      Back to Top
     </button>
   `,
   styles: [],
